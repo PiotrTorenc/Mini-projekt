@@ -4,7 +4,7 @@ body {
   color: #2c2c54;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Montserrat", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -15,4 +15,94 @@ body {
 
 section {
   padding: 50px 0;
+}
+
+header {
+  background-image: url(https://i.postimg.cc/RhVRrgZk/pexels-wendel-moretti-10402422.jpg);
+  height: 95vh;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #fff;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto 10px auto;
+}
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  border-radius: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: solid #ff764e 2px;
+  background-color: #ff764e;
+  background-position: 100% 0;
+  background-size: 300%;
+  color: #fff;
+}
+.btn:hover {
+  background: none;
+  border: solid #ff764e 2px;
+  transition: all 1.3s;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+nav div {
+  margin-left: 10px;
+}
+
+.navigation-section a {
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #df491b;
+  transition: all 1.3s;
+}
+
+.splash-inner {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  margin: 30px auto;
+}
+
+.page-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.title {
+  color: #df491b;
+  font-size: 35px;
 }

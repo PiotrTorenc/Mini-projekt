@@ -157,3 +157,45 @@ ul {
   font-style: italic;
   font-size: 32px;
 }
+
+.our-portfolio {
+  background-color: #f8f8f8;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.card {
+  align-items: center;
+  border: none;
+}
+
+.card .card-title {
+  font-weight: 600;
+}
+
+.card .card-text {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  letter-spacing: 3px;
+}
+
+.portfolio {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  max-width: 300px;
+  max-height: 600px;
+}

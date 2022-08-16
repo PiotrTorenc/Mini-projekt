@@ -48,8 +48,8 @@ h1 {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: solid #ff764e 2px;
-  background-color: #ff764e;
+  border: solid goldenrod 2px;
+  background-color: goldenrod;
   background-position: 100% 0;
   background-size: 300%;
   color: #fff;
@@ -71,6 +71,7 @@ nav div {
 
 .navigation-section a {
   text-decoration: none;
+  align-items: right;
 }
 
 a {
@@ -80,7 +81,7 @@ a {
 }
 
 a:hover {
-  color: #df491b;
+  color: goldenrod;
   transition: all 1.3s;
 }
 
@@ -103,7 +104,7 @@ a:hover {
   margin-bottom: 30px;
 }
 .title {
-  color: #df491b;
+  color: goldenrod;
   font-size: 35px;
 }
 .info {
@@ -136,8 +137,8 @@ ul {
 }
 
 .info-element i {
-  color: #ff764e;
-  border: solid 2px #ff764e;
+  color: goldenrod;
+  border: solid 2px goldenrod;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -197,5 +198,70 @@ p {
 }
 .card img {
   max-width: 300px;
-  max-height: 600px;
+  max-height: 400px;
+}
+
+.copy {
+  text-align: left;
+  font-size: 15px;
+  color: darkgrey;
+  margin: 40px 0 40px 0;
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 16px;
+}
+
+.social-media li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.social a {
+  font-size: 0;
+}
+
+.social-media i {
+  color: #fff;
+  font-size: 25px;
+  background: #282b29;
+  width: 70px;
+  height: 70px;
+  line-height: 66px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.social {
+  margin: 0 3px 0 3px;
+}
+
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 25px;
+  }
+
+  a.btn {
+    margin: 50px 0 0 0;
+  }
+
+  .page-subtitle {
+    font-size: 30px;
+  }
+
+  .info {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .info li {
+    margin: auto;
+  }
+
+  .copy {
+    text-align: center;
+  }
 }
